@@ -8,41 +8,51 @@
 * **Database:** Uses a local SQLite database (data.db) for message storage.
 * **Theming:** Built-in support for Dark and Light modes.
 
-## Getting Started
-1. **Prerequisites:**
-   * Python 3.9 or newer
-   * Flet 0.27.1
 
-### 1. Basic Usage
-Simply run the script with Python:
+## Getting Started
+**1. Prerequisites:**
+```text
+Python 3.9+
+Flet 0.27.1
+```
+
+### 2. Basic Usage
 ```bash
-python "Digital Guestbook.py
-´´´
-### 2. Installation
+python "Digital Guestbook.py"
+```
+
+### 3. Installation
 Clone the repository:
 ```bash
 pip install -r requirements.txt
-´´´
+```
 
 ## Project Structure
-   * ```Digital Guestbook.p´´´            : Main program Windows and Linux environments.
-   * ```modules/localization.py´´´        : Automatic loacalization engine
-   * ```assets/DigitalGuestbook.ico´´´    : The application icon.
-   * ```assets/DigitalGuestbook.png´´´    : The application icon/png
-   * ```/locales/lang_en.json´´´          : English locales
-   * ```/locales/lang_fi.json´´´          : Finnish locales
-   * ```config.json´´´                    : Configuration file
-   * ```data.db´´´                        : sqlite database
-   * ```LISENCE.md´´´                     : GPLv3 lisence
-   * ```README.md´´´                      :readme.md
+```text
+|── Digital Guestbook.py              # Main program Windows and Linux environments.
+├── modules/                       		# Modules
+│   ├── localization.py             	# Automatic loacalization engine
+│
+├── assets/                       		# Assets
+│   ├── DigitalGuestbook.ico          # The application icon.  
+│   └── DigitalGuestbook.png          # The application logo.
+│
+├── locales/                       		# Assets
+│   ├── lang_en.json                  # English locales
+│   └── lang_fi.json                  # Finnish locales
+├── config.json            			      # Configuration file
+├── data.db                     			# SQlite database
+├── LISENCE.md                   			# GPLv3 lisence
+├── README.md                     		# readme.md
+├── requirements.txt            			# requirements
+│
+```
 
----
 ## Version History
    * v0.1: Initial release, basic file operations.
-
-## License & Credits
-   * Author: Tuomas Lähteenmäki
-   * License: GNU GPLv3 - Free to use, modify, and distribute.
 ---
-
-Developed for the flow of coding.
+## License & Credits
+* **Author:** Tuomas Lähteenmäki
+* **License:** GNU GPLv3
+---
+*Developed for the flow of coding.*

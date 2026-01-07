@@ -55,4 +55,5 @@ pip install -r requirements.txt
 * **Author:** Tuomas Lähteenmäki
 * **License:** GNU GPLv3
 ---
-*Developed for the flow of coding.*
+*Developed for the flow of coding, one day*
+
